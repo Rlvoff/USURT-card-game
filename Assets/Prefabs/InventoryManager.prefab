@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5933586891462605780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8044209457289044622}
+  - component: {fileID: 3488932527223419943}
+  m_Layer: 0
+  m_Name: InventoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8044209457289044622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5933586891462605780}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 104.95514, y: 193.44049, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3488932527223419943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5933586891462605780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e3da90ea3b6a149803ab713666af8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryManager
+  itemDatabase: {fileID: 11400000, guid: 7cc7b60f5354ec44d99c49925a0414d9, type: 2}
+  cardDatabase: {fileID: 11400000, guid: 1799ecdbbf1901e4eac0946e116fd733, type: 2}
+  questDatabase: {fileID: 11400000, guid: 8e25bcc7f5a092045a44fa3317770c08, type: 2}
+  items:
+  - itemId: 2
+    quantity: 1
+  cards: []
+  deckCards: []
+  canvasInventoryGroup: {fileID: 0}
+  questContainer: {fileID: 0}
+  availableDeckCardsContainer: {fileID: 0}
+  deckCardsContainer: {fileID: 0}
+  itemsContainer: {fileID: 0}
+  questSlotPrefab: {fileID: 5423864655511752833, guid: 39f1f1cf72820bf4282544e1b38be9bb, type: 3}
+  itemSlotPrefab: {fileID: 1029211120344537893, guid: cc036078d1589914a8906698db70851d, type: 3}
+  cardSlotPrefab: {fileID: 2226823273965267343, guid: 5f3d71248324d684585908ce305767dc, type: 3}
+  unknownCardSlotPrefab: {fileID: 2226823273965267343, guid: efaba5b758aeb7549a3e43b59ca24a67, type: 3}
+  emptyDeckSlotPrefab: {fileID: 5284821217120141746, guid: 064a83aa5569d544ea3ea0b0f9343888, type: 3}
+  maxDeckSize: 20
